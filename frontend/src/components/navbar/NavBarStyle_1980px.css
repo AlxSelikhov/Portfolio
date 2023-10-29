@@ -1,0 +1,64 @@
+@media (max-width: 1980px) {
+  .selikhov-alexander {
+    position: relative;
+    font-weight: 600;
+  }
+  .text {
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+  }
+  .button {
+    border-radius: var(--br-5xs);
+    background-color: var(--peach-95);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 14px 24px;
+  }
+  .buttons-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+  }
+  .button1 {
+    border-radius: var(--br-5xs);
+    background-color: var(--purple-50);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 16px 18px;
+    color: var(--peach-99);
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+    font-size: var(--font-size-lg);
+    color: var(--grey-20);
+  }
+  .icon {
+    display: none;
+  }
+  .navbar {
+    position: relative;
+    border-bottom: 1px solid var(--peach-85);
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 162px;
+    text-align: left;
+    font-size: 24px;
+    color: var(--purple-50);
+    font-family: var(--font-manrope);
+  }
+}

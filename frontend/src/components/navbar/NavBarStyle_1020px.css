@@ -1,0 +1,44 @@
+@media (max-width: 1024px) {
+  .selikhov-alexander {
+    position: relative;
+    font-weight: 600;
+  }
+  .icon {
+    display: block;
+    position: relative;
+    width: 34px;
+    height: 34px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .text {
+    display: none;
+  }
+  .button {
+    display: none;
+  }
+  .buttons-container {
+    display: none;
+  }
+  .button1 {
+    display: none;
+  }
+  .container {
+    display: none;
+  }
+  /* .navbar {
+    position: relative;
+    border-bottom: 1px solid var(--peach-85);
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 16px 20px;
+    text-align: left;
+    font-size: 18px;
+    color: var(--purple-50);
+    font-family: var(--font-manrope);
+  } */
+}

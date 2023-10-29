@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-manrope: Manrope;
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+  --font-size-19xl: 38px;
+  --font-size-29xl: 48px;
+  --font-size-5xl: 24px;
+
+  /* Colors */
+  --peach-92: #eeebe5;
+  --peach-90: #ebe7e0;
+  --purple-50: #5700ff;
+  --peach-99: #fdfdfc;
+  --grey-50: #808080;
+  --grey-10: #1a1a1a;
+  --peach-96: #f7f6f3;
+  --peach-95: #f5f3f0;
+  --grey-20: #333;
+  --grey-30: #4d4d4d;
+  --peach-85: #e1dbd1;
+  --peach-92: #eeebe5;
+--peach-90: #ebe7e0;
+--peach-85: #e1dbd1;
+--peach-99: #fdfdfc;
+--grey-50: #808080;
+--grey-10: #1a1a1a;
+--grey-40: #666;
+--grey-30: #4d4d4d;
+--grey-20: #333;
+--purple-50: #5700ff;
+--peach-96: #f7f6f3;
+--peach-95: #f5f3f0;
+--peach-98: #fbfaf9;
+
+  /* Gaps */
+  --gap-61xl: 80px;
+  --gap-31xl: 50px;
+  --gap-11xl: 30px;
+  --gap-xl: 20px;
+  --gap-7xs: 6px;
+  --gap-21xl: 40px;
+  --gap-5xs: 8px;
+  --gap-3xs: 10px;
+
+  --gap-xl: 20px;
+  --gap-5xl: 24px;
+  --gap-7xs: 6px;
+  --gap-sm: 14px;
+  --gap-41xl: 60px;
+  --gap-11xl: 30px;
+  --gap-21xl: 40px;
+  --gap-3xs: 10px;
+  --gap-11xs: 2px;
+  --gap-10xs: 3px;
+  --gap-base: 16px;
+  --gap-5xs: 8px;
+  --peach-92: #eeebe5;
+--peach-90: #ebe7e0;
+--peach-85: #e1dbd1;
+--peach-99: #fdfdfc;
+--grey-50: #808080;
+--grey-10: #1a1a1a;
+--grey-40: #666;
+--grey-30: #4d4d4d;
+--grey-20: #333;
+--purple-50: #5700ff;
+--peach-96: #f7f6f3;
+--peach-95: #f5f3f0;
+--peach-98: #fbfaf9;
+
+  /* Paddings */
+  --padding-lg: 18px;
+  --padding-5xl: 24px;
+  --padding-31xl: 50px;
+  --padding-3xs: 10px;
+  --padding-281xl: 300px;
+  --padding-143xl: 162px;
+  --padding-xl: 20px;
+  --padding-base: 16px;
+
+  --padding-21xl: 40px;
+  --padding-61xl: 80px;
+  --padding-xl: 20px;
+  --padding-3xl: 22px;
+  --padding-3xs: 10px;
+  --padding-sm: 14px;
+  --padding-xs: 12px;
+  --padding-5xl: 24px;
+  --padding-9xs: 4px;
+  --padding-231xl: 250px;
+  --padding-7xs: 6px;
+  --padding-5xs: 8px;
+  --padding-base: 16px;
+
+  /* Border radiuses */
+  --br-5xs: 8px;
+  --br-xs: 12px;
+  --br-7xs: 6px;
+  --br-5xs: 8px;
+
+  --br-7xs: 6px;
+  --br-3xs: 10px;
+  --br-12xs: 1px;
+  --br-9xs: 4px;
+  --br-xs: 12px;
+}
+
+.home-page {
+  position: relative;
+  background-color: var(--peach-92);
+  width: 100%;
+  height: 3358px; /* это делает точный размер страницы без возможности изменений */
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--purple-50);
+  font-family: var(--font-manrope);
+}
