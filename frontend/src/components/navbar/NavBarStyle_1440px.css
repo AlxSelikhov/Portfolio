@@ -2,11 +2,16 @@
   .selikhov-alexander {
     position: relative;
     font-weight: 600;
+    text-decoration: none;
   }
   .text {
     position: relative;
     line-height: 150%;
     font-weight: 500;
+    text-decoration: none;
+  }
+  .no-link-color {
+    color: var(--purple-50);
   }
   .button {
     border-radius: 6px;
@@ -43,6 +48,18 @@
     font-size: var(--font-size-sm);
     color: var(--grey-20);
   }
+  .active-nav-link {
+    border-radius: var(--br-5xs);
+    background-color: var(--peach-95);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 14px 24px;
+
+    font-weight: 500;
+    text-decoration: none;
+  }
   .icon {
     display: none;
   }
@@ -60,5 +77,15 @@
     font-size: 18px;
     color: var(--purple-50);
     font-family: var(--font-manrope);
+  }
+
+  /* для MODAL */
+
+  .modal {
+    display: none;
+  }
+
+  .modal-content {
+    display: none;
   }
 }

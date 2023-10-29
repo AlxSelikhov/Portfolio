@@ -2,15 +2,16 @@ import { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import MainPage from "./pages/MainPage";
+import AboutMePage from "./pages/AboutMePage";
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<MainPage />} />
+          <Route path="/about" element={<AboutMePage />} />
         </Routes>
       </BrowserRouter>
     </>
