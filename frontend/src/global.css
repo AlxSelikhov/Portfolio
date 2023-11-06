@@ -14,6 +14,7 @@ body {
   --font-size-19xl: 38px;
   --font-size-29xl: 48px;
   --font-size-5xl: 24px;
+  --font-size-sm: 14px;
 
   /* Colors */
   --peach-92: #eeebe5;
@@ -63,6 +64,7 @@ body {
   --gap-10xs: 3px;
   --gap-base: 16px;
   --gap-5xs: 8px;
+
   --peach-92: #eeebe5;
 --peach-90: #ebe7e0;
 --peach-85: #e1dbd1;
@@ -105,7 +107,6 @@ body {
   --br-5xs: 8px;
   --br-xs: 12px;
   --br-7xs: 6px;
-  --br-5xs: 8px;
 
   --br-7xs: 6px;
   --br-3xs: 10px;

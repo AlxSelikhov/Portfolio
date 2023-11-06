@@ -1,5 +1,4 @@
-import React from "react";
-
+import FooterComponent from "../components/footer/FooterComponent";
 import NavbarComponent from "../components/navbar/NavbarComponent";
 import "../global.css";
 
@@ -8,6 +7,7 @@ function AboutMePage() {
     <>
       <div className="home-page">
         <NavbarComponent />
+        {/* <FooterComponent /> */}
       </div>
     </>
   );

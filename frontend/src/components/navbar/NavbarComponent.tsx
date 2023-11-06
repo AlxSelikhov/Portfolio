@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from "react";
-import { Drawer } from "antd";
-import { CloseOutlined } from "@ant-design/icons";
 import { NavLink } from "react-router-dom";
 
 import "./NavBarStyle_1980px.css";
 import "./NavBarStyle_1440px.css";
-import "./NavBarStyle_1020px.css";
+import "./NavBarStyle_1024px.css";
 import Icon from "./assets/Icon.svg";
 
 const NavbarComponent: React.FC = () => {
