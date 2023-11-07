@@ -11,9 +11,9 @@ const NavbarComponent: React.FC = () => {
 
   useEffect(() => {
     if (isModalVisible) {
-      document.body.classList.add("modal-open");
+      document.body.classList.add("navbar-modal-open");
     } else {
-      document.body.classList.remove("modal-open");
+      document.body.classList.remove("navbar-modal-open");
     }
   }, [isModalVisible]);
 
@@ -29,17 +29,17 @@ const NavbarComponent: React.FC = () => {
     <div className="navbar">
       <NavLink
         to="/"
-        className="selikhov-alexander no-link-color" /* activeClassName="active-link" */
+        className="navbar-selikhov-alexander no-link-color" /* activeClassName="active-link" */
       >
         Selikhov Alexander.
       </NavLink>
-      <img src={Icon} className="icon" onClick={showModal} />
-      <div className="container">
-        <div className="buttons-container">
+      <img src={Icon} className="navbar-icon" onClick={showModal} />
+      <div className="navbar-container">
+        <div className="navbar-buttons-container">
           <NavLink
             to="/"
             className={({ isActive }) =>
-              isActive ? "active-nav-link" : "text no-link-color"
+              isActive ? "navbar-active-nav-link" : "navbar-text navbar-no-link-color"
             }
           >
             Главная
@@ -47,7 +47,7 @@ const NavbarComponent: React.FC = () => {
           <NavLink
             to="/about"
             className={({ isActive }) =>
-              isActive ? "active-nav-link" : "text no-link-color"
+              isActive ? "navbar-active-nav-link" : "navbar-text navbar-no-link-color"
             }
           >
             Обо мне
@@ -55,32 +55,32 @@ const NavbarComponent: React.FC = () => {
           <NavLink
             to="/portfolio"
             className={({ isActive }) =>
-              isActive ? "active-nav-link" : "text no-link-color"
+              isActive ? "navbar-active-nav-link" : "navbar-text navbar-no-link-color"
             }
           >
             Портфолио
           </NavLink>
         </div>
-        <div className="button1">
-          <div className="text">Скачать резюме</div>
+        <div className="navbar-button1">
+          <div className="navbar-text">Скачать резюме</div>
         </div>
       </div>
       {isModalVisible && (
-        <div className="modal">
-          <div className="modal-content">
-            <div className="modal-header">
-              <div className="modal-title">Меню</div>
-              <div className="modal-close" onClick={hideModal}>
+        <div className="navbar-modal">
+          <div className="navbar-modal-content">
+            <div className="navbar-modal-header">
+              <div className="navbar-modal-title">Меню</div>
+              <div className="navbar-modal-close" onClick={hideModal}>
                 X
               </div>
             </div>
-            <div className="modal-body">
+            <div className="navbar-modal-body">
               <NavLink
                 to="/"
                 className={({ isActive }) =>
                   isActive
-                    ? "active-link no-link-color"
-                    : "nav-link no-link-color"
+                    ? "navbar-active-link navbar-no-link-color"
+                    : "navbar-nav-link navbar-no-link-color"
                 }
               >
                 Главная
@@ -89,15 +89,15 @@ const NavbarComponent: React.FC = () => {
                 to="/about"
                 className={({ isActive }) =>
                   isActive
-                    ? "active-link no-link-color"
-                    : "nav-link no-link-color"
+                    ? "navbar-active-link navbar-no-link-color"
+                    : "navbar-nav-link navbar-no-link-color"
                 }
               >
                 Обо мне
               </NavLink>
               <NavLink
                 to="/portfolio"
-                className="nav-link no-link-color" /*activeClassName="active-link" */
+                className="navbar-nav-link navbar-no-link-color" /*activeClassName="active-link" */
               >
                 Портфолио
               </NavLink>

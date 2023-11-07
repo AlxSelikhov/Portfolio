@@ -1,19 +1,19 @@
 @media (max-width: 1440px) {
-  .selikhov-alexander {
+  .navbar-selikhov-alexander {
     position: relative;
     font-weight: 600;
     text-decoration: none;
   }
-  .text {
+  .navbar-text {
     position: relative;
     line-height: 150%;
     font-weight: 500;
     text-decoration: none;
   }
-  .no-link-color {
+  .navbar-no-link-color {
     color: var(--purple-50);
   }
-  .button {
+  .navbar-button {
     border-radius: 6px;
     background-color: var(--peach-95);
     display: flex;
@@ -22,14 +22,14 @@
     justify-content: flex-start;
     padding: 12px 22px;
   }
-  .buttons-container {
+  .navbar-buttons-container {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
     gap: 20px;
   }
-  .button1 {
+  .navbar-button1 {
     border-radius: 8px;
     background-color: var(--purple-50);
     display: flex;
@@ -39,7 +39,7 @@
     padding: 14px 16px;
     color: var(--peach-99);
   }
-  .container {
+  .navbar-container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -48,7 +48,7 @@
     font-size: var(--font-size-sm);
     color: var(--grey-20);
   }
-  .active-nav-link {
+  .navbar-active-nav-link {
     border-radius: var(--br-5xs);
     background-color: var(--peach-95);
     display: flex;
@@ -60,7 +60,7 @@
     font-weight: 500;
     text-decoration: none;
   }
-  .icon {
+  .navbar-icon {
     display: none;
   }
   .navbar {
@@ -81,11 +81,11 @@
 
   /* для MODAL */
 
-  .modal {
+  .navbar-modal {
     display: none;
   }
 
-  .modal-content {
+  .navbar-modal-content {
     display: none;
   }
 }

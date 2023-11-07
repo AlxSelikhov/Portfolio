@@ -1,13 +1,13 @@
 @media (max-width: 1024px) {
-  .selikhov-alexander {
+  .navbar-selikhov-alexander {
     color: inherit;
     position: relative;
     font-weight: 600;
   }
-  .no-link-color {
+  .navbar-no-link-color {
     color: var(--purple-50);
   }
-  .icon {
+  .navbar-icon {
     display: block;
     position: relative;
     width: 34px;
@@ -15,40 +15,25 @@
     overflow: hidden;
     flex-shrink: 0;
   }
-  .text {
+  .navbar-text {
     display: none;
   }
-  .button {
+  .navbar-button {
     display: none;
   }
-  .buttons-container {
+  .navbar-buttons-container {
     display: none;
   }
-  .button1 {
+  .navbar-button1 {
     display: none;
   }
-  .container {
+  .navbar-container {
     display: none;
   }
-  /* .navbar {
-    position: relative;
-    border-bottom: 1px solid var(--peach-85);
-    box-sizing: border-box;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 40px 16px 20px;
-    text-align: left;
-    font-size: 18px;
-    color: var(--purple-50);
-    font-family: var(--font-manrope);
-  } */
 
   /* для MODAL */
 
-  .modal {
+  .navbar-modal {
     display: block;
     position: fixed;
     top: 0px;
@@ -60,11 +45,11 @@
     overflow: hidden;
   }
 
-  body.modal-open {
+  body.navbar-modal-open {
     overflow: hidden;
   }
 
-  .modal-content {
+  .navbar-modal-content {
     display: block;
     background-color: var(--peach-85);
     width: 100%;
@@ -73,35 +58,35 @@
     border-radius: 8px;
   }
 
-  .modal-header {
+  .navbar-modal-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
   }
 
-  .modal-title {
+  .navbar-modal-title {
     font-size: 24px;
     font-weight: bold;
   }
 
-  .modal-close {
+  .navbar-modal-close {
     cursor: pointer;
     font-size: 24px;
   }
 
-  .modal-body {
+  .navbar-modal-body {
     display: flex;
     flex-direction: column;
   }
 
-  .nav-link {
+  .navbar-nav-link {
     margin-bottom: 10px;
     /* color: var(--purple-50); */
     text-decoration: none;
   }
 
-  .active-link {
+  .navbar-active-link {
     margin-bottom: 10px;
     /* color: var(--purple-50); */
     text-decoration: none;
