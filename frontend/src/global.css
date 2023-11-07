@@ -119,7 +119,6 @@ body {
   position: relative;
   background-color: var(--peach-92);
   width: 100%;
-  height: 3358px; /* это делает точный размер страницы без возможности изменений */
   overflow: hidden;
   text-align: left;
   font-size: var(--font-size-5xl);

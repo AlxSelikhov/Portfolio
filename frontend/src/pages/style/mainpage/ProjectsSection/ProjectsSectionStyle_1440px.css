@@ -1,0 +1,184 @@
+@media (max-width: 1440px) {
+  .projects-heading {
+    width: 100%;
+    position: relative;
+    font-size: 38px;
+    line-height: 150%;
+    font-weight: 600;
+    font-family: var(--font-manrope);
+    color: var(--grey-20);
+    text-align: center;
+    display: inline-block;
+  }
+  .projects-heading1 {
+    width: 100%;
+    position: relative;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 600;
+    font-family: var(--font-manrope);
+    color: var(--grey-20);
+    text-align: left;
+    display: inline-block;
+  }
+  .projects-paragraph {
+    width: 100%;
+    position: relative;
+    font-size: 16px;
+    line-height: 150%;
+    font-family: var(--font-manrope);
+    color: var(--grey-30);
+    text-align: center;
+    display: inline-block;
+  }
+  .projects-text-container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 250px;
+    gap: 2px;
+  }
+  .projects-image-icon {
+    align-self: stretch;
+    position: relative;
+    border-radius: var(--br-5xs);
+    max-width: 100%;
+    overflow: hidden;
+    height: 257px;
+    flex-shrink: 0;
+    object-fit: cover;
+    z-index: 0;
+  }
+  .projects-image-icon1 {
+    flex: 1;
+    position: relative;
+    border-radius: var(--br-9xs);
+    max-width: 100%;
+    overflow: hidden;
+    height: 54px;
+    object-fit: cover;
+  }
+  .projects-sub-container1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-sm);
+    z-index: 1;
+  }
+  .projects-icon {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .projects-button {
+    margin: 0 !important;
+    position: absolute;
+    right: 10px;
+    bottom: 84px;
+    border-radius: var(--br-7xs);
+    background-color: var(--peach-96);
+    border: 1px solid var(--peach-90);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-5xs);
+    z-index: 2;
+  }
+  .projects-container2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    gap: var(--gap-xl);
+  }
+  .projects-card {
+    flex: 1;
+    border-radius: var(--br-3xs);
+    background-color: var(--peach-96);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-21xl);
+    gap: var(--gap-5xl);
+  }
+  .projects-button1 {
+    margin: 0 !important;
+    position: absolute;
+    right: 10.33px;
+    bottom: 84px;
+    border-radius: var(--br-7xs);
+    background-color: var(--peach-96);
+    border: 1px solid var(--peach-90);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-5xs);
+    z-index: 2;
+  }
+  .projects-sub-container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xl);
+  }
+  .projects-text {
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+  }
+  .projects-button2 {
+    border-radius: var(--br-7xs);
+    background-color: var(--purple-50);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 14px 20px;
+    font-size: 14px;
+    color: var(--peach-99);
+  }
+  .projects-container1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+    text-align: left;
+    font-size: var(--font-size-base);
+  }
+  .projects-container {
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 630px);
+    width: 1280px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 60px;
+  }
+  .my-projects-section {
+    position: relative;
+    width: 100%;
+    height: 691px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 38px;
+    color: var(--grey-20);
+    font-family: var(--font-manrope);
+  }
+}

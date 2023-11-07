@@ -3,8 +3,13 @@ import FooterComponent from "../components/footer/FooterComponent";
 import "../global.css";
 
 import "./style/mainpage/WelcomeSectionStyle.css";
+import "./style/mainpage/WelcomeSection/WelcomeSectionStyle_1440px.css"
+
 import "./style/mainpage/SkillsSectionStyle.css";
+import "./style/mainpage/SkillsSection/SkillsSectionStyle_1440px.css"
+
 import "./style/mainpage/ProjectsSectionStyle.css";
+import "./style/mainpage/ProjectsSection/ProjectsSectionStyle_1440px.css"
 
 import SkillImage from "./assets/mainpage/SkillsSection/SkillsImage.svg";
 import SkillImage1 from "./assets/mainpage/SkillsSection/SkillsImage1.svg";
@@ -73,7 +78,7 @@ function MainPage() {
         <div className="skills-section">
           <div className="skills-container">
             <div className="skills-text-container">
-              <div className="skills-heading">Мои Навыки</div>
+              <div className="skills-heading-main">Мои Навыки</div>
               <div className="skills-paragraph">
                 Как frontend разработчик, я обладаю широким спектром навыков и
                 экспертных знаний, чтобы превратить ваши идеи в уникальные и
@@ -93,8 +98,9 @@ function MainPage() {
                     <div className="skills-paragraph">
                       Владение основными принципами frontend разработки, такими
                       как HTML-верстка, CSS-стилизация,
-                      JavaScript-интерактивность и оптимизация пользовательского
-                      интерфейса.
+                      JavaScript-интерактивность 
+                      {/* и оптимизация пользовательского
+                      интерфейса. */}
                     </div>
                   </div>
                 </div>
@@ -106,7 +112,7 @@ function MainPage() {
                     <div className="skills-heading">Адаптивный дизайн</div>
                     <div className="skills-paragraph">
                       Мои знания позволяют создавать адаптивные интерфейсы,
-                      которые легко функционируют на различных устройствах .
+                      которые легко функционируют на различных устройствах.
                     </div>
                   </div>
                 </div>
@@ -131,7 +137,7 @@ function MainPage() {
                 <div className="skills-card">
                   <div className="skills-icon-container">
                     <img
-                      className="skills-image-1-icon"
+                      className="skills-icon"
                       alt=""
                       src={SkillImage3}
                     />
@@ -174,7 +180,7 @@ function MainPage() {
             <div className="projects-container1">
               <div className="projects-sub-container">
                 <div className="projects-card">
-                  <div className="projects-heading">
+                  <div className="projects-heading1">
                     Z - Aura Perfume Website Design
                   </div>
                   <div className="projects-container2">
@@ -211,7 +217,7 @@ function MainPage() {
                   </div>
                 </div>
                 <div className="projects-card">
-                  <div className="projects-heading">
+                  <div className="projects-heading1">
                     Forhelp Charity Website Design
                   </div>
                   <div className="projects-container2">
