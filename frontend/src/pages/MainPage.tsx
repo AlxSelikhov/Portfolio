@@ -3,13 +3,16 @@ import FooterComponent from "../components/footer/FooterComponent";
 import "../global.css";
 
 import "./style/mainpage/WelcomeSectionStyle.css";
-import "./style/mainpage/WelcomeSection/WelcomeSectionStyle_1440px.css"
+import "./style/mainpage/WelcomeSection/WelcomeSectionStyle_1440px.css";
+import "./style/mainpage/WelcomeSection/WelcomeSectionStyle_1024px.css";
 
 import "./style/mainpage/SkillsSectionStyle.css";
-import "./style/mainpage/SkillsSection/SkillsSectionStyle_1440px.css"
+import "./style/mainpage/SkillsSection/SkillsSectionStyle_1440px.css";
+import "./style/mainpage/SkillsSection/SkillsSectionStyle_1024px.css";
 
 import "./style/mainpage/ProjectsSectionStyle.css";
-import "./style/mainpage/ProjectsSection/ProjectsSectionStyle_1440px.css"
+import "./style/mainpage/ProjectsSection/ProjectsSectionStyle_1440px.css";
+import "./style/mainpage/ProjectsSection/ProjectsSectionStyle_1024px.css";
 
 import SkillImage from "./assets/mainpage/SkillsSection/SkillsImage.svg";
 import SkillImage1 from "./assets/mainpage/SkillsSection/SkillsImage1.svg";
@@ -98,7 +101,7 @@ function MainPage() {
                     <div className="skills-paragraph">
                       Владение основными принципами frontend разработки, такими
                       как HTML-верстка, CSS-стилизация,
-                      JavaScript-интерактивность 
+                      JavaScript-интерактивность
                       {/* и оптимизация пользовательского
                       интерфейса. */}
                     </div>
@@ -136,11 +139,7 @@ function MainPage() {
                 </div>
                 <div className="skills-card">
                   <div className="skills-icon-container">
-                    <img
-                      className="skills-icon"
-                      alt=""
-                      src={SkillImage3}
-                    />
+                    <img className="skills-icon" alt="" src={SkillImage3} />
                   </div>
                   <div className="skills-text-container1">
                     <div className="skills-heading">Библиотеки</div>
@@ -257,6 +256,172 @@ function MainPage() {
               <div className="projects-button2">
                 <div className="projects-text">{`Посмотреть все проекты ->`}</div>
               </div>
+            </div>
+          </div>
+        </div>
+        {/* mobile version */}
+        {/* первый блок welcome*/}
+        <div className="hero-section">
+          <div className="container">
+            <div className="sub-container">
+              <div className="container1">
+                <div className="sub-container1">
+                  <div className="text">Всем привет 🤗</div>
+                </div>
+                <div className="text-container">
+                  <div className="heading">
+                    Селихов Александр Приветствует Вас!
+                  </div>
+                  <div className="paragraph">
+                    Я - преданный и опытный frontend разработчик, стремящийся
+                    создавать визуально привлекательные и высокофункциональные
+                    веб-приложения. Изучите мои проекты, чтобы увидеть, как
+                    эффективно я применяю свои навыки в разработке
+                    пользовательского интерфейса.
+                  </div>
+                </div>
+              </div>
+              <div className="buttons-container">
+                <div className="button">
+                  <div className="text">Скачать резюме</div>
+                </div>
+                <div className="text2">{`Просмотреть портфолио ->`}</div>
+              </div>
+            </div>
+            <div className="text-container-parent">
+              <div className="text-container1">
+                <b className="number">
+                  <span>5</span>
+                  <span className="span">+</span>
+                </b>
+                <div className="text3">
+                  Завершенных проектов (commercial + pet)
+                </div>
+              </div>
+              <div className="text-container-wrapper">
+                <div className="text-container2">
+                  <b className="number">
+                    <span>01</span>
+                    <span className="span">+</span>
+                  </b>
+                  <div className="text3">Лет опыта работы</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* второй блок skills*/}
+        <div className="mobile-skills-section">
+          <div className="text-container">
+            <div className="heading">Creative Skills</div>
+            <div className="paragraph">
+              As a web designer, I possess a diverse set of skills and expertise
+              to bring your web design visions to life
+            </div>
+          </div>
+          <div className="sub-container">
+            <div className="card">
+              <div className="icon-container">
+                <img className="icon" alt="" src="Icon.svg" />
+              </div>
+              <div className="text-container1">
+                <div className="heading">Web Design Principles</div>
+                <div className="paragraph">
+                  Proficiency in the fundamental principles of design, such as
+                  layout, color theory, typography, and visual hierarchy.
+                </div>
+              </div>
+            </div>
+            <div className="card">
+              <div className="icon-container">
+                <img className="icon" alt="" src="Icon.svg" />
+              </div>
+              <div className="text-container1">
+                <div className="heading">User Interface - UI Design</div>
+                <div className="paragraph">
+                  Ability to create visually appealing and intuitive user
+                  interfaces that enhance user experience and engagement.
+                </div>
+              </div>
+            </div>
+            <div className="card">
+              <div className="icon-container">
+                <img className="icon" alt="" src="Icon.svg" />
+              </div>
+              <div className="text-container1">
+                <div className="heading">Responsive Web Design</div>
+                <div className="paragraph">
+                  Knowledge of designing websites that adapt and function
+                  seamlessly across various devices and screen sizes.
+                </div>
+              </div>
+            </div>
+            <div className="card">
+              <div className="icon-container">
+                <img className="icon" alt="" src="Icon.svg" />
+              </div>
+              <div className="text-container1">
+                <div className="heading">Wireframing and Prototyping</div>
+                <div className="paragraph">
+                  Ability to create wireframes and interactive prototypes to
+                  visualize and test website layouts and functionality.
+                </div>
+              </div>
+            </div>
+            <div className="card">
+              <div className="icon-container">
+                <img className="icon" alt="" src="Icon.svg" />
+              </div>
+              <div className="text-container1">
+                <div className="heading">Mobile-Friendly Optimization</div>
+                <div className="paragraph">
+                  Proficiency in the fundamental principles of design, such as
+                  layout, color theory, typography, and visual hierarchy.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* третий блок projects */}
+        <div className="mobile-my-projects-section">
+          <div className="text-container">
+            <div className="heading">My Works</div>
+            <div className="paragraph">
+              Here's what some of my satisfied clients have to say about my work
+            </div>
+          </div>
+          <div className="container">
+            <div className="sub-container">
+              <div className="card">
+                <div className="heading">Forhelp Charity Website Design</div>
+                <div className="container1">
+                  <img className="image-icon" alt="" src="Image.png" />
+                  <div className="sub-container1">
+                    <img className="image-icon1" alt="" src="Image.png" />
+                    <img className="image-icon1" alt="" src="Image.png" />
+                    <img className="image-icon1" alt="" src="Image.png" />
+                    <img className="image-icon1" alt="" src="Image.png" />
+                  </div>
+                  <div className="button">
+                    <img className="icon" alt="" src="Icon.svg" />
+                  </div>
+                </div>
+              </div>
+              <div className="buttons-container">
+                <div className="button1">
+                  <img className="icon1" alt="" src="Icon.svg" />
+                </div>
+                <div className="indicators">
+                  <div className="indicator" />
+                  <div className="indicator1" />
+                </div>
+                <div className="button1">
+                  <img className="icon1" alt="" src="Icon.svg" />
+                </div>
+              </div>
+            </div>
+            <div className="button3">
+              <div className="text">View All Projects</div>
             </div>
           </div>
         </div>
