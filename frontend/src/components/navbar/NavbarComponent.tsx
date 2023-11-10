@@ -61,8 +61,8 @@ const NavbarComponent: React.FC = () => {
             Портфолио
           </NavLink>
         </div>
-        <div className="navbar-button1">
-          <div className="navbar-text">Скачать резюме</div>
+        <div className="navbar-button1 download">
+          <div className="navbar-text ">Скачать резюме</div>
         </div>
       </div>
       {isModalVisible && (

@@ -10,13 +10,20 @@ import ImageMail from "./assets/ImageMail.svg";
 import ImageLocal from "./assets/ImageLocal.svg";
 
 const FooterComponent: React.FC = () => {
+  const handleClick = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <>
       <div className="footer">
         <div className="footer-container">
-          <NavLink to="/" className="footer-logo no-link-color">
+          <Link
+            to="/"
+            className="footer-logo no-link-color"
+            onClick={handleClick}
+          >
             Selikhov Alexander.
-          </NavLink>
+          </Link>
           <div className="footer-buttons-container">
             <div className="footer-button">
               <div className="footer-tg-icon">
@@ -31,18 +38,27 @@ const FooterComponent: React.FC = () => {
             </div>
           </div>
           <div className="footer-buttons-container1">
-            <NavLink to="/" className="footer-text-button no-link-color">
+            <Link
+              to="/"
+              className="footer-text-button no-link-color"
+              onClick={handleClick}
+            >
               Главная
-            </NavLink>
-            <NavLink to="/about" className="footer-text-button no-link-color">
+            </Link>
+            <Link
+              to="/about"
+              className="footer-text-button no-link-color"
+              onClick={handleClick}
+            >
               Обо мне
-            </NavLink>
-            <NavLink
+            </Link>
+            <Link
               to="/portfolio"
               className="footer-text-button no-link-color"
+              onClick={handleClick}
             >
               Портфолио
-            </NavLink>
+            </Link>
           </div>
         </div>
         <div className="footer-container1">

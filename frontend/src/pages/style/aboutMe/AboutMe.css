@@ -1,0 +1,109 @@
+.about-text {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.about-container2 {
+  border-radius: 8px;
+  background-color: var(--peach-96);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 14px 18px;
+}
+.about-heading {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+}
+.about-p {
+  margin: 0;
+}
+.about-paragraph {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 150%;
+  color: var(--grey-30);
+}
+.about-text-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+  font-size: 58px;
+  color: var(--grey-10);
+}
+.about-sub-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.about-span {
+  color: var(--purple-50);
+}
+.about-number {
+  position: relative;
+  line-height: 150%;
+}
+.about-text1 {
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 150%;
+  font-weight: 500;
+  color: var(--grey-30);
+}
+.about-text-container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.about-sub-container1 {
+  align-self: stretch;
+  border-top: 1px solid var(--purple-50);
+  border-bottom: 1px solid var(--purple-50);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px 0px;
+  gap: 50px;
+  font-size: var(--font-size-29xl);
+}
+.about-container1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 60px;
+}
+.about-container {
+  position: absolute;
+  top: 0px;
+  left: 162px;
+  width: 1596px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.about-section {
+  position: relative;
+  width: 100%;
+  height: 542px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 24px;
+  color: var(--grey-20);
+  font-family: var(--font-manrope);
+  margin: 124px 0 150px 0;
+}

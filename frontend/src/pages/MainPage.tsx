@@ -1,18 +1,11 @@
+import { Link } from "react-router-dom";
+
 import NavbarComponent from "../components/navbar/NavbarComponent";
 import FooterComponent from "../components/footer/FooterComponent";
-import "../global.css";
 
 import "./style/mainpage/WelcomeSectionStyle.css";
-import "./style/mainpage/WelcomeSection/WelcomeSectionStyle_1440px.css";
-import "./style/mainpage/WelcomeSection/WelcomeSectionStyle_1024px.css";
-
 import "./style/mainpage/SkillsSectionStyle.css";
-import "./style/mainpage/SkillsSection/SkillsSectionStyle_1440px.css";
-import "./style/mainpage/SkillsSection/SkillsSectionStyle_1024px.css";
-
 import "./style/mainpage/ProjectsSectionStyle.css";
-import "./style/mainpage/ProjectsSection/ProjectsSectionStyle_1440px.css";
-import "./style/mainpage/ProjectsSection/ProjectsSectionStyle_1024px.css";
 
 import SkillImage from "./assets/mainpage/SkillsSection/SkillsImage.svg";
 import SkillImage1 from "./assets/mainpage/SkillsSection/SkillsImage1.svg";
@@ -24,7 +17,21 @@ import ProjectImage from "./assets/mainpage/ProjectsSection/ProjectImage.png";
 import ProjectImage1 from "./assets/mainpage/ProjectsSection/ProjectImage1.png";
 import ProjectIcon from "./assets/mainpage/ProjectsSection/ProjectIcon.svg";
 
+import ArrowLeftIcon from "./assets/mainpage/ProjectsSection/ArrowLeftIcon.svg";
+import ArrowRightIcon from "./assets/mainpage/ProjectsSection/ArrowRightIcon.svg";
+
 function MainPage() {
+  const handleDownloadPDF = () => {
+    const link = document.createElement("a");
+    link.href = "../assets/Portfolio.pdf"; // Замените на путь к вашему PDF-файлу
+    link.download = "Portfolio-Selikhov_Alexander.pdf"; // Замените на имя файла, которое хотите использовать
+    link.click();
+  };
+
+  const handleClick = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <>
       <div className="home-page">
@@ -51,10 +58,21 @@ function MainPage() {
                 </div>
               </div>
               <div className="welcome-buttons-container">
-                <div className="welcome-button">
+                <div
+                  className="welcome-button download"
+                  onClick={handleDownloadPDF}
+                >
                   <div className="welcome-text">Скачать резюме</div>
                 </div>
-                <div className="welcome-text2">{`Просмотреть портфолио ->`}</div>
+                <div className="welcome-text2">
+                  <Link
+                    to="/portfolio"
+                    className="footer-text-button no-link-color"
+                    onClick={handleClick}
+                  >
+                    {`Просмотреть портфолио ->`}
+                  </Link>
+                </div>
               </div>
             </div>
             <div className="welcome-sub-container2">
@@ -173,7 +191,7 @@ function MainPage() {
             <div className="projects-text-container">
               <div className="projects-heading">Мои проекты</div>
               <div className="projects-paragraph">
-                Вот некоторые pet-проектые, которые я сделал:
+                Некоторые pet-проектые, которые я сделал:
               </div>
             </div>
             <div className="projects-container1">
@@ -254,25 +272,33 @@ function MainPage() {
                 </div>
               </div>
               <div className="projects-button2">
-                <div className="projects-text">{`Посмотреть все проекты ->`}</div>
+                <div className="">
+                  <Link
+                    to="/portfolio"
+                    className="no-link-text"
+                    onClick={handleClick}
+                  >
+                    {`Просмотреть портфолио ->`}
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
         </div>
         {/* mobile version */}
         {/* первый блок welcome*/}
-        <div className="hero-section">
-          <div className="container">
-            <div className="sub-container">
-              <div className="container1">
-                <div className="sub-container1">
-                  <div className="text">Всем привет 🤗</div>
+        <div className="mobile-hero-section">
+          <div className="mobile-container">
+            <div className="mobile-sub-container">
+              <div className="mobile-container1">
+                <div className="mobile-sub-container1">
+                  <div className="mobile-text">Всем привет 🤗</div>
                 </div>
-                <div className="text-container">
-                  <div className="heading">
+                <div className="mobile-text-container">
+                  <div className="mobile-heading">
                     Селихов Александр Приветствует Вас!
                   </div>
-                  <div className="paragraph">
+                  <div className="mobile-paragraph">
                     Я - преданный и опытный frontend разработчик, стремящийся
                     создавать визуально привлекательные и высокофункциональные
                     веб-приложения. Изучите мои проекты, чтобы увидеть, как
@@ -281,30 +307,30 @@ function MainPage() {
                   </div>
                 </div>
               </div>
-              <div className="buttons-container">
-                <div className="button">
-                  <div className="text">Скачать резюме</div>
+              <div className="mobile-buttons-container">
+                <div className="mobile-button">
+                  <div className="mobile-text">Скачать резюме</div>
                 </div>
-                <div className="text2">{`Просмотреть портфолио ->`}</div>
+                <div className="mobile-text2">{`Просмотреть портфолио ->`}</div>
               </div>
             </div>
-            <div className="text-container-parent">
-              <div className="text-container1">
-                <b className="number">
+            <div className="mobile-text-container-parent">
+              <div className="mobile-text-container1">
+                <b className="mobile-number">
                   <span>5</span>
-                  <span className="span">+</span>
+                  <span className="mobile-span">+</span>
                 </b>
-                <div className="text3">
+                <div className="mobile-text3">
                   Завершенных проектов (commercial + pet)
                 </div>
               </div>
-              <div className="text-container-wrapper">
-                <div className="text-container2">
-                  <b className="number">
+              <div className="mobile-text-container-wrapper">
+                <div className="mobile-text-container2">
+                  <b className="mobile-number">
                     <span>01</span>
-                    <span className="span">+</span>
+                    <span className="mobile-span">+</span>
                   </b>
-                  <div className="text3">Лет опыта работы</div>
+                  <div className="mobile-text3">Лет опыта работы</div>
                 </div>
               </div>
             </div>
@@ -312,71 +338,79 @@ function MainPage() {
         </div>
         {/* второй блок skills*/}
         <div className="mobile-skills-section">
-          <div className="text-container">
-            <div className="heading">Creative Skills</div>
-            <div className="paragraph">
-              As a web designer, I possess a diverse set of skills and expertise
-              to bring your web design visions to life
+          <div className="mobile-skills-text-container">
+            <div className="mobile-skills-heading">Мои Навыки</div>
+            <div className="mobile-skills-paragraph">
+              Как frontend разработчик, я обладаю широким спектром навыков и
+              экспертных знаний, чтобы превратить ваши идеи в уникальные и
+              интуитивно понятные веб-приложения.
             </div>
           </div>
-          <div className="sub-container">
-            <div className="card">
-              <div className="icon-container">
-                <img className="icon" alt="" src="Icon.svg" />
+          <div className="mobile-skills-sub-container">
+            <div className="mobile-skills-card">
+              <div className="mobile-skills-icon-container">
+                <img className="mobile-skills-icon" alt="" src={SkillImage} />
               </div>
-              <div className="text-container1">
-                <div className="heading">Web Design Principles</div>
-                <div className="paragraph">
-                  Proficiency in the fundamental principles of design, such as
-                  layout, color theory, typography, and visual hierarchy.
+              <div className="mobile-skills-text-container1">
+                <div className="mobile-skills-heading">
+                  Принципы frontend разработки
+                </div>
+                <div className="mobile-skills-paragraph">
+                  Владение основными принципами frontend разработки, такими как
+                  HTML-верстка, CSS-стилизация, JavaScript-интерактивность
                 </div>
               </div>
             </div>
-            <div className="card">
-              <div className="icon-container">
-                <img className="icon" alt="" src="Icon.svg" />
+            <div className="mobile-skills-card">
+              <div className="mobile-skills-icon-container">
+                <img className="mobile-skills-icon" alt="" src={SkillImage1} />
               </div>
-              <div className="text-container1">
-                <div className="heading">User Interface - UI Design</div>
-                <div className="paragraph">
-                  Ability to create visually appealing and intuitive user
-                  interfaces that enhance user experience and engagement.
+              <div className="mobile-skills-text-container1">
+                <div className="mobile-skills-heading">Адаптивный дизайн</div>
+                <div className="mobile-skills-paragraph">
+                  Мои знания позволяют создавать адаптивные интерфейсы, которые
+                  легко функционируют на различных устройствах.
                 </div>
               </div>
             </div>
-            <div className="card">
-              <div className="icon-container">
-                <img className="icon" alt="" src="Icon.svg" />
+            <div className="mobile-skills-card">
+              <div className="mobile-skills-icon-container">
+                <img className="mobile-skills-icon" alt="" src={SkillImage2} />
               </div>
-              <div className="text-container1">
-                <div className="heading">Responsive Web Design</div>
-                <div className="paragraph">
-                  Knowledge of designing websites that adapt and function
-                  seamlessly across various devices and screen sizes.
+              <div className="mobile-skills-text-container1">
+                <div className="mobile-skills-heading">
+                  Языки программирования
+                </div>
+                <div className="mobile-skills-paragraph">
+                  Frontend : JS, Typescript, HTML, CSS
+                </div>
+                <div className="mobile-skills-paragraph">
+                  Backend: Python, MSSQL, PostrgeSQL
                 </div>
               </div>
             </div>
-            <div className="card">
-              <div className="icon-container">
-                <img className="icon" alt="" src="Icon.svg" />
+            <div className="mobile-skills-card">
+              <div className="mobile-skills-icon-container">
+                <img className="mobile-skills-icon" alt="" src={SkillImage3} />
               </div>
-              <div className="text-container1">
-                <div className="heading">Wireframing and Prototyping</div>
-                <div className="paragraph">
-                  Ability to create wireframes and interactive prototypes to
-                  visualize and test website layouts and functionality.
+              <div className="mobile-skills-text-container1">
+                <div className="mobile-skills-heading">Библиотеки</div>
+                <div className="mobile-skills-paragraph">
+                  Frontend: React.js, Axios, React-Router
+                </div>
+                <div className="mobile-skills-paragraph">
+                  Backend: FastAPI, Dash, Pundas, Numpy
                 </div>
               </div>
             </div>
-            <div className="card">
-              <div className="icon-container">
-                <img className="icon" alt="" src="Icon.svg" />
+            <div className="mobile-skills-card">
+              <div className="mobile-skills-icon-container">
+                <img className="mobile-skills-icon" alt="" src={SkillImage4} />
               </div>
-              <div className="text-container1">
-                <div className="heading">Mobile-Friendly Optimization</div>
-                <div className="paragraph">
-                  Proficiency in the fundamental principles of design, such as
-                  layout, color theory, typography, and visual hierarchy.
+              <div className="mobile-skills-text-container1">
+                <div className="mobile-skills-heading">UI-библиотеки</div>
+                <div className="mobile-skills-paragraph">
+                  Ant Design, MUI, Styled components
                 </div>
               </div>
             </div>
@@ -384,44 +418,78 @@ function MainPage() {
         </div>
         {/* третий блок projects */}
         <div className="mobile-my-projects-section">
-          <div className="text-container">
-            <div className="heading">My Works</div>
-            <div className="paragraph">
-              Here's what some of my satisfied clients have to say about my work
+          <div className="mobile-project-text-container">
+            <div className="mobile-project-heading">Мои проекты</div>
+            <div className="mobile-project-paragraph">
+              Некоторые pet-проектые, которые я сделал:
             </div>
           </div>
-          <div className="container">
-            <div className="sub-container">
-              <div className="card">
-                <div className="heading">Forhelp Charity Website Design</div>
-                <div className="container1">
-                  <img className="image-icon" alt="" src="Image.png" />
-                  <div className="sub-container1">
-                    <img className="image-icon1" alt="" src="Image.png" />
-                    <img className="image-icon1" alt="" src="Image.png" />
-                    <img className="image-icon1" alt="" src="Image.png" />
-                    <img className="image-icon1" alt="" src="Image.png" />
+          <div className="mobile-project-container">
+            <div className="mobile-project-sub-container">
+              <div className="mobile-project-card">
+                <div className="mobile-project-heading">
+                  Forhelp Charity Website Design
+                </div>
+                <div className="mobile-project-container1">
+                  <img
+                    className="mobile-project-image-icon"
+                    alt=""
+                    src={ProjectImage}
+                  />
+                  <div className="mobile-project-sub-container1">
+                    <img
+                      className="mobile-project-image-icon1"
+                      alt=""
+                      src={ProjectImage}
+                    />
+                    <img
+                      className="mobile-project-image-icon1"
+                      alt=""
+                      src={ProjectImage}
+                    />
+                    <img
+                      className="mobile-project-image-icon1"
+                      alt=""
+                      src={ProjectImage}
+                    />
+                    <img
+                      className="mobile-project-image-icon1"
+                      alt=""
+                      src={ProjectImage}
+                    />
                   </div>
-                  <div className="button">
-                    <img className="icon" alt="" src="Icon.svg" />
+                  <div className="mobile-project-button">
+                    <img
+                      className="mobile-project-icon"
+                      alt=""
+                      src={ProjectIcon}
+                    />
                   </div>
                 </div>
               </div>
-              <div className="buttons-container">
-                <div className="button1">
-                  <img className="icon1" alt="" src="Icon.svg" />
+              <div className="mobile-project-buttons-container">
+                <div className="mobile-project-button1">
+                  <img
+                    className="mobile-project-icon1"
+                    alt=""
+                    src={ArrowLeftIcon}
+                  />
                 </div>
-                <div className="indicators">
-                  <div className="indicator" />
-                  <div className="indicator1" />
+                <div className="mobile-project-indicators">
+                  <div className="mobile-project-indicator" />
+                  <div className="mobile-project-indicator1" />
                 </div>
-                <div className="button1">
-                  <img className="icon1" alt="" src="Icon.svg" />
+                <div className="mobile-project-button1">
+                  <img
+                    className="mobile-project-icon1"
+                    alt=""
+                    src={ArrowRightIcon}
+                  />
                 </div>
               </div>
             </div>
-            <div className="button3">
-              <div className="text">View All Projects</div>
+            <div className="mobile-project-button3">
+              <div className="mobile-project-text">View All Projects</div>
             </div>
           </div>
         </div>

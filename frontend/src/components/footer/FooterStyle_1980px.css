@@ -11,6 +11,10 @@
   color: var(--purple-50);
   text-decoration: none;
 }
+.no-link-text{
+  color: #fff;
+  text-decoration: none;
+}
 .footer-tg-image-2-icon {
   position: absolute;
   height: 100%;

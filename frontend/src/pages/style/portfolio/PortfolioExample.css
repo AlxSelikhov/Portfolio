@@ -1,0 +1,154 @@
+.porfolio-example-heading {
+    position: relative;
+    line-height: 150%;
+    font-weight: 600;
+}
+.porfolio-example-icon {
+    position: relative;
+    width: 34px;
+    height: 34px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.porfolio-example-button {
+    border-radius: var(--br-5xs);
+    background-color: var(--peach-95);
+    border: 1px solid var(--peach-85);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-7xs);
+}
+.porfolio-example-buttons-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 16px;
+}
+.porfolio-example-container1 {
+    align-self: stretch;
+    border-bottom: 1px solid var(--peach-85);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 0px 30px;
+}
+.porfolio-example-heading1 {
+    align-self: stretch;
+    position: relative;
+    line-height: 150%;
+    font-weight: 600;
+}
+.porfolio-example-image-icon {
+    align-self: stretch;
+    position: relative;
+    border-radius: var(--br-xs);
+    max-width: 100%;
+    overflow: hidden;
+    height: 311px;
+    flex-shrink: 0;
+    object-fit: cover;
+    z-index: 0;
+}
+.porfolio-example-image-icon1 {
+    flex: 1;
+    position: relative;
+    border-radius: var(--br-7xs);
+    max-width: 100%;
+    overflow: hidden;
+    height: 68px;
+    object-fit: cover;
+}
+.porfolio-example-sub-container1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xl);
+    z-index: 1;
+}
+.porfolio-example-icon2 {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.porfolio-example-button2 {
+    margin: 0 !important;
+    position: absolute;
+    right: 10px;
+    bottom: 98px;
+    border-radius: var(--br-5xs);
+    background-color: var(--peach-96);
+    border: 1px solid var(--peach-90);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-3xs);
+    z-index: 2;
+}
+.porfolio-example-container3 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    gap: var(--gap-xl);
+}
+.porfolio-example-card {
+    flex: 1;
+    border-radius: var(--br-xs);
+    background-color: var(--peach-96);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-31xl);
+    gap: var(--gap-11xl);
+}
+.porfolio-example-container2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-11xl);
+    font-size: var(--font-size-xl);
+}
+.porfolio-example-sub-container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: var(--gap-11xl);
+}
+.porfolio-example-container {
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 798px);
+    width: 1596px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.porfolio-example {
+    position: relative;
+    width: 100%;
+    height: 665px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 24px;
+    color: var(--grey-20);
+    font-family: var(--font-manrope);
+    margin-bottom: 100px;
+}
+
