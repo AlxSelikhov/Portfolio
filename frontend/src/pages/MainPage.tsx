@@ -271,17 +271,15 @@ function MainPage() {
                   </div>
                 </div>
               </div>
-              <div className="projects-button2">
-                <div className="">
-                  <Link
-                    to="/portfolio"
-                    className="no-link-text"
-                    onClick={handleClick}
-                  >
-                    {`Просмотреть портфолио ->`}
-                  </Link>
+
+              <Link to="/portfolio" className="no-link-text">
+                <div
+                  className="projects-button2 project-curcore"
+                  onClick={handleClick}
+                >
+                  {`Просмотреть портфолио ->`}
                 </div>
-              </div>
+              </Link>
             </div>
           </div>
         </div>

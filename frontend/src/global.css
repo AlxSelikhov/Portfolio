@@ -48,6 +48,23 @@ body {
   --peach-95: #f5f3f0;
   --peach-98: #fbfaf9;
 
+  --peach-92: #eeebe5;
+  --peach-96: #f7f6f3;
+  --grey-20: #333;
+  --other-colors-blue: #2260ff;
+  --peach-99: #fdfdfc;
+  --grey-50: #808080;
+  --grey-10: #1a1a1a;
+  --color-gray-100: rgba(255, 255, 255, 0.2);
+  --grey-30: #4d4d4d;
+  --absolute-white: #fff;
+  --other-colors-pink: #ff22e9;
+  --other-colors-orange: #ff7222;
+  --other-colors-purple: #9e00ff;
+  --purple-90: #ddccff;
+  --purple-50: #5700ff;
+  --peach-85: #e1dbd1;
+
   /* -about me- */
   --peach-92: #eeebe5;
   --peach-96: #f7f6f3;
@@ -163,6 +180,86 @@ body {
   --br-11xs: 2px;
   --br-5xs: 8px;
   --br-81xl: 100px;
+
+  /* fonts */
+  --font-manrope: Manrope;
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-15xl: 34px;
+  --font-size-lg: 18px;
+  --font-size-sm: 14px;
+  /* Gaps */
+  --gap-21xl: 40px;
+  --gap-5xl: 24px;
+  --gap-3xs: 10px;
+  --gap-31xl: 50px;
+  --gap-sm: 14px;
+  --gap-xl: 20px;
+  --gap-7xs: 6px;
+  /* Paddings */
+  --padding-21xl: 40px;
+  --padding-sm: 14px;
+  --padding-3xs: 10px;
+  --padding-base: 16px;
+  --padding-73xl: 92px;
+  --padding-5xs: 8px;
+  --padding-xs: 12px;
+  --padding-61xl: 80px;
+  --padding-xl: 20px;
+  /* Border radiuses */
+  --br-3xs: 10px;
+  --br-xs: 12px;
+  --br-9xs: 4px;
+  --br-11xs: 2px;
+  --br-7xs: 6px;
+  --br-81xl: 100px;
+  --br-5xs: 8px;
+
+  /* fonts */
+  --font-manrope: Manrope;
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --font-size-29xl: 48px;
+  /* Colors */
+  --peach-92: #eeebe5;
+  --peach-90: #ebe7e0;
+  --absolute-white: #fff;
+  --peach-96: #f7f6f3;
+  --other-colors-blue: #2260ff;
+  --grey-20: #333;
+  --grey-50: #808080;
+  --grey-10: #1a1a1a;
+  --color-gray-100: rgba(255, 255, 255, 0.2);
+  --other-colors-pink: #ff22e9;
+  --grey-30: #4d4d4d;
+  --other-colors-orange: #ff7222;
+  --other-colors-purple: #9e00ff;
+  --purple-90: #ddccff;
+  --peach-85: #e1dbd1;
+  --purple-50: #5700ff;
+  /* Gaps */
+  --gap-41xl: 60px;
+  --gap-21xl: 40px;
+  --gap-11xl: 30px;
+  --gap-5xl: 24px;
+  --gap-xl: 20px;
+  --gap-sm: 14px;
+  /* Paddings */
+  --padding-5xs: 8px;
+  --padding-21xl: 40px;
+  --padding-3xs: 10px;
+  --padding-base: 16px;
+  --padding-11xl: 30px;
+  --padding-xl: 20px;
+  /* Border radiuses */
+  --br-81xl: 100px;
+  --br-3xs: 10px;
+  --br-5xs: 8px;
+  --br-9xs: 4px;
+  --br-12xs: 1px;
+  --br-7xs: 6px;
 }
 
 .home-page {

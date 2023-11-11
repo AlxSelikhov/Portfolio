@@ -15,6 +15,9 @@
   color: #fff;
   text-decoration: none;
 }
+.project-curcore{
+  cursor: pointer;
+}
 .footer-tg-image-2-icon {
   position: absolute;
   height: 100%;
