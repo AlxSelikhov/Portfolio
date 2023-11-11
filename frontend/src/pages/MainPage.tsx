@@ -191,7 +191,7 @@ function MainPage() {
             <div className="projects-text-container">
               <div className="projects-heading">Мои проекты</div>
               <div className="projects-paragraph">
-                Некоторые pet-проектые, которые я сделал:
+                Ненастоящие pet-проектые без ссылок:
               </div>
             </div>
             <div className="projects-container1">
@@ -419,7 +419,7 @@ function MainPage() {
           <div className="mobile-project-text-container">
             <div className="mobile-project-heading">Мои проекты</div>
             <div className="mobile-project-paragraph">
-              Некоторые pet-проектые, которые я сделал:
+              Ненастоящие pet-проектые без ссылок:
             </div>
           </div>
           <div className="mobile-project-container">

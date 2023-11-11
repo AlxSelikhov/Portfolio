@@ -317,6 +317,237 @@ function AboutMePage() {
             </div>
           </div>
         </div>
+        {/* mobile timeline*/}
+        <div className="mobile-timeline">
+          <div className="mobile-timeline-text-container">
+            <div className="mobile-timeline-heading">
+              Основные вехи моей карьеры
+            </div>
+          </div>
+          <div className="mobile-timeline-sub-container">
+            <div className="mobile-timeline-progress-line-container">
+              <div className="mobile-timeline-progress-line-background" />
+              <div className="mobile-timeline-progress-line" />
+            </div>
+            <div className="mobile-timeline-container">
+              <div className="mobile-timeline-text-container1">
+                <div className="mobile-timeline-text">Сейчас</div>
+              </div>
+              <div className="mobile-timeline-sub-container1">
+                <div className="mobile-timeline-date-wrapper">
+                  <div className="mobile-timeline-date">
+                    Путь в web-разработку
+                  </div>
+                </div>
+                <div className="mobile-timeline-container1">
+                  <img
+                    className="mobile-timeline-tip-icon"
+                    alt=""
+                    src={TipUp}
+                  />
+                  <div className="mobile-timeline-sub-container2">
+                    <div className="mobile-timeline-icon-container">
+                      <div className="mobile-timeline-icon">
+                        <img
+                          className="mobile-timeline-group-child"
+                          alt=""
+                          src={PurpleIcon}
+                        />
+                      </div>
+                    </div>
+                    <div className="mobile-timeline-paragraph">
+                      Продолжая свой путь роста и исследований, я расширяю свой
+                      набор навыков, вникая в новые технологии и тенденции
+                    </div>
+                  </div>
+                  <div className="mobile-timeline-navigator">
+                    <div className="mobile-timeline-navigator-child" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="mobile-timeline-container2">
+              <div className="mobile-timeline-text-container2">
+                <div className="mobile-timeline-text">2020</div>
+              </div>
+              <div className="mobile-timeline-sub-container1">
+                <div className="mobile-timeline-date-wrapper">
+                  <div className="mobile-timeline-date">
+                    Кадровое агентство Юнити
+                  </div>
+                </div>
+                <div className="mobile-timeline-container1">
+                  <img
+                    className="mobile-timeline-tip-icon"
+                    alt=""
+                    src={TipUp}
+                  />
+                  <div className="mobile-timeline-sub-container2">
+                    <div className="mobile-timeline-icon-container1">
+                      <div className="mobile-timeline-icon">
+                        <img
+                          className="mobile-timeline-star-icon"
+                          alt=""
+                          src={OrangeIcon}
+                        />
+                      </div>
+                    </div>
+                    <div className="mobile-timeline-paragraph1">
+                      <p className="mobile-timeline-fullstack">
+                        <b>Fullstack разработчик</b>
+                      </p>
+                      <p className="mobile-timeline-fullstack">&nbsp;</p>
+                      <p className="mobile-timeline-fullstack">
+                        Создал внутренний сайт мониторинга деятельности
+                        сотрудников для 3 отделов, что поспособствовало
+                        выявлению утерянных, необработанных заявок в
+                        CRM.Ускорилась обработка вакансий с 10+ до 2-6 дней;
+                      </p>
+                      <p className="mobile-timeline-fullstack">&nbsp;</p>
+                      <p className="mobile-timeline-fullstack">
+                        Создал страницу мониторинга дебетовой задолженности,
+                        благодаря которой сократились сроки задолженностей на
+                        десятки дней;
+                      </p>
+                      <p className="mobile-timeline-fullstack">&nbsp;</p>
+                      <p className="mobile-timeline-fullstack">
+                        Создается проект ведения финансовых моделей, которая
+                        автоматизирует и ускорит проверку и согласование
+                        финансовых моделей;
+                      </p>
+                      <p className="mobile-timeline-fullstack">&nbsp;</p>
+                      <p className="mobile-timeline-fullstack">
+                        Разработал frontend и backend внутреннего web-приложения
+                        на библиотеке dash (python);
+                      </p>
+                      <p className="mobile-timeline-fullstack">&nbsp;</p>
+                      <p className="mobile-timeline-fullstack">
+                        Автоматизировал функционал отдела казначейства с помощью
+                        Power Query;
+                      </p>
+                      <p className="mobile-timeline-fullstack">&nbsp;</p>
+                      <p className="mobile-timeline-fullstack">
+                        Проверка и создание десяток моделей в месяц
+                      </p>
+                      <p className="mobile-timeline-fullstack">&nbsp;</p>
+                      <p className="mobile-timeline-fullstack">
+                        Обучил директоров всех отделов работе в web-приложении
+                        для контроля сотрудников и планирования работы отдела;
+                      </p>
+                    </div>
+                  </div>
+                  <div className="mobile-timeline-navigator">
+                    <div className="mobile-timeline-navigator-item" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="mobile-timeline-container4">
+              <div className="mobile-timeline-text-container2">
+                <div className="mobile-timeline-text">2022</div>
+              </div>
+              <div className="mobile-timeline-sub-container1">
+                <div className="mobile-timeline-date-wrapper">
+                  <div className="mobile-timeline-date">
+                    Российский экспортный центр
+                  </div>
+                </div>
+                <div className="mobile-timeline-container1">
+                  <img
+                    className="mobile-timeline-tip-icon"
+                    alt=""
+                    src={TipUp}
+                  />
+                  <div className="mobile-timeline-sub-container2">
+                    <div className="mobile-timeline-icon-container2">
+                      <div className="mobile-timeline-icon">
+                        <img
+                          className="mobile-timeline-star-icon"
+                          alt=""
+                          src={PinkIcon}
+                        />
+                      </div>
+                    </div>
+                    <div className="mobile-timeline-paragraph">
+                      <p className="mobile-timeline-fullstack">
+                        <b>
+                          Аналитик отдела реализации проекта интеграции с ЦПЭ
+                          (ГПХ)
+                        </b>
+                      </p>
+                      <p className="mobile-timeline-fullstack">
+                        <b>&nbsp;</b>
+                      </p>
+                      <p className="mobile-timeline-fullstack">
+                        Разработал стандартную форму, позволяющие ускорить и
+                        упростить подписание соглашений о деятельности центров
+                        поддержки экспорта;
+                      </p>
+                      <p className="mobile-timeline-fullstack">&nbsp;</p>
+                      <p className="mobile-timeline-fullstack">
+                        Обеспечено повышение качества подготовки плановой и
+                        отчетной документации центров поддержки экспорта;
+                      </p>
+                      <p className="mobile-timeline-fullstack">&nbsp;</p>
+                      <p className="mobile-timeline-fullstack">
+                        Обучение двух стажеров— Созданные презентации дня защиты
+                        центров поддержки экспорта;
+                      </p>
+                      <p className="mobile-timeline-fullstack">&nbsp;</p>
+                      <p className="mobile-timeline-fullstack">
+                        Курирование деятельности 26 регионов поддержки экспорта;
+                      </p>
+                    </div>
+                  </div>
+                  <div className="mobile-timeline-navigator">
+                    <div className="mobile-timeline-navigator-inner" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="mobile-timeline-container6">
+              <div className="mobile-timeline-text-container2">
+                <div className="mobile-timeline-text">2021</div>
+              </div>
+              <div className="mobile-timeline-sub-container7">
+                <div className="mobile-timeline-date-wrapper">
+                  <div className="mobile-timeline-date3">
+                    Высшее образование (Бакалавр)
+                  </div>
+                </div>
+                <div className="mobile-timeline-container7">
+                  <img
+                    className="mobile-timeline-tip-icon"
+                    alt=""
+                    src={PurpleIcon}
+                  />
+                  <div className="mobile-timeline-sub-container2">
+                    <div className="mobile-timeline-icon-container3">
+                      <div className="mobile-timeline-icon">
+                        <img
+                          className="mobile-timeline-star-icon"
+                          alt=""
+                          src={BlueIcon}
+                        />
+                      </div>
+                    </div>
+                    <div className="mobile-timeline-paragraph1">
+                      <p className="mobile-timeline-fullstack">
+                        Всероссийская академия внешней торговли, Москва
+                      </p>
+                      <p className="mobile-timeline-fullstack">
+                        Факультет международных финансов, Финансы и кредит
+                      </p>
+                    </div>
+                  </div>
+                  <div className="mobile-timeline-navigator">
+                    <div className="mobile-timeline-navigator-child1" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <FooterComponent />
       </div>
     </>
